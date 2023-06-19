@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;500&display=swap');
+:root{
+}
+
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 17px;
+	color: var(--color-textos);
+	font-weight: 400;
+	line-height: 1.7;
+}
+h1,h2,h4,h5,h6{
+	color: #A0D6B9;
+}
+
+header{
+	background-color: #FFF;
+}
+header .bg-light{
+	background-color: transparent !important;
+}
+header img{
+	width: 200px;
+}
+
+#portafolio{
+	background-image: url("https://wallpapers.com/images/hd/minimalist-aesthetic-actuary-work-laptop-wtvol12uoktgz31i.jpg");
+	background-size: cover;
+	background-position: top center;
+	
+}
+#portafolio h6{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+}
+#portafolio h1{
+	color: #fff;
+	font-size: 60px;
+}
+#portafolio p{
+	font-size: 20px;
+	color: #fff;
+	line-height: 1.7;
+}
+
+
+.overlay{
+	background-color: rgba(0,0,0,0.40);
+	padding: 10% 0;
+}
+
+.section{
+	padding: 5% 0;
+}
+.titulo{
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.subtitulo{
+	font-size: 18px;
+	color: var(--color-subtitulo);
+	font-weight: 400;
+}
+
+#acerca .titulo{
+	margin-top: 0%;
+}
+
+
+#acerca ul i{
+	color: #DBA3CA;
+}
+#acerca ul{
+	font-size: 15px;
+}
+#acerca li{
+	padding-bottom: 10px;
+}
+
+#acerca.section{
+	padding-bottom: 0;
+	background-color: #FDF8EB;
+}
+
+#icons{
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	color: var(--color-letra-gris);
+}
+
+#icons h3{
+	font-size: 16px;
+	margin: 15px 0;
+}
+
+#icons i{
+	font-size: 50px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border: 1px solid #ddd;
+	border-radius: 100%;
+}
+#icons i:hover{
+	background-color: #DBA3CA;
+	color: #FFFFFF;
+}
+
+#icons h2{
+	padding-bottom: 30px;
+	font-size: 35px;
+}
+
+
+#proyectos .card{
+	border-radius: 0;
+	border-color: #eee;
+}
+#proyectos .card h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+#proyectos .card p{
+	font-size: 15px;
+	font-weight: 400;
+	color: var(--color-letra-gris);
+	letter-spacing: 0.3px;
+}
+
+
+#footer-columns{
+	background-color: var(--fondo-footer-columns);
+	color: var(--color-footer);
+	padding: 60px 0;
+	font-size: 14px;
+}
+#footer-columns img{
+	width: 180px;
+	margin-bottom: 30px;
+}
+#footer-columns h4{
+	color: #fff;
+	font-size: 16px;
+}
+
+#footer-copy{
+	background-color: #DBA3CA;
+	color: #FFFFFF;
+	padding: 20px 0;
+	font-size: 15px;
+}
+
+
+#title-page{
+	background-color: var(--fondo-title-page);
+	padding: 40px 0;
+	border-top: 1px solid #eee;
+}
+#title-page h1{
+	font-size: 25px;
+}
+
+
+#proyectos .carousel-caption{
+	text-align: end;
+}
+
+#proyectos .carousel-caption h2{
+	font-size: 60px;
+	color: #fff;
+	font-weight: 400;
+}
+#proyectos .carousel-caption p{
+	font-size: 20px;
+}
+
+.btn-primary{
+	background-color: #FFF ;
+	border-color: #DBA3CA;
+	color: #DBA3CA;
+	margin: 15px;
+}	
+
+.btn-primary:hover{
+	background-color: #DBA3CA ;
+	border-color: #DBA3CA;
+	color:#FFF;
+}	
+
+.capa-overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.45);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+.capa-overlay a{
+	background-color: rgba(255,255,255,0.90);
+	color: #333;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	margin-bottom: 5px;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
+}
+.capa-overlay a:hover{
+	background-color: rgba(255,255,255,0.60);
+	transition: all 0.3s ease-in-out;
+}
+	
+.capa-hover .capa-overlay{
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+.capa-hover:hover .capa-overlay{
+	opacity: 1;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+
+.nav-item:hover{
+	color: #DBA3CA;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
